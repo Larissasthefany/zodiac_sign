@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --001: rgba(99, 99, 233, 0.849);
+    --002: rgba(76, 76, 196, 0.849);
+    --003: rgba(135, 135, 185, 0.849);
+    --004: rgba(109, 109, 252, 0.849);
+}
+
+body{
+    background-color: var(--004);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    padding-top: 50px;
+    font: 2em;
+    color: white;
+}
+
+.zodiaco{
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 60px;
+    color: white;
+}
+
+option, select{
+    background-color: rgba(37, 33, 33, 0.61);
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px;
+}
+
+.waves{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.wave-1{
+    animation: movewave1 3s ease-in-out infinite alternate;
+}
+
+@keyframes  movewave1{
+    from{
+        transform: translateX(-2000px);
+    }
+}
+
+.wave-2{
+    animation: movewave2 3s 1.2s ease-in-out infinite alternate;
+}
+
+@keyframes  movewave2{
+    from{
+        transform: translateX(-1700px);
+    }
+}
+
+.wave-3{
+    animation: movewave3 3s 0.7s ease-in-out infinite alternate;
+}
+
+@keyframes  movewave3{
+    from{
+        transform: translateX(-1500px);
+    }
+}

@@ -21,6 +21,26 @@ h1{
     padding-top: 50px;
     font: 2em;
     color: white;
+
+    animation-name: exibirOutros;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+}
+
+h1:nth-child(1){
+    animation-delay: 2s;
+}
+
+    @keyframes exibirOutros{
+    0%{
+        visibility: visible; opacity: 1;
+    }
+    75%{
+        visibility: visible; opacity: 1;
+    }
+    100%{
+        visibility: visible; opacity: 0;
+    }
 }
 
 .zodiaco{

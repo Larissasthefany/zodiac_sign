@@ -94,3 +94,23 @@ option, select{
         transform: translateX(-1500px);
     }
 }
+
+
+
+@media screen and (max-width: 480px){
+
+    form{
+        width: 30%;
+    }
+    h1{
+        font-size: 1.3em ;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        columns: 2;
+    }
+} 
